@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+    main {
+        display: flex;
+        flex-direction:column;
+        
+        .url-evaluate {
+            font-size:1.2em;
+            color:rgba(5, 23, 88, 0.5);
+            line-height: normal;            
+        }
+ 
+        section {
+        max-width: 800px;
+        margin: 50px auto;
+        strong {
+            text-transform:uppercase;
+        }
+       
+        }
+}

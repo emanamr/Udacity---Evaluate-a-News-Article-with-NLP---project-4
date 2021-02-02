@@ -1,0 +1,30 @@
+form {
+    display: flex;
+    flex-flow: column;
+    background: rgba(80, 78, 228, 0.2);
+    border-radius: 3px;
+    width: 35vw;
+    height:25vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    #name {
+        border-radius: 5px;
+        margin: 10px;
+        background-color: rgba(80, 78, 228, 0.2);
+        width: 50%;
+        min-height: 1.5em;
+        max-height: 15em;
+       
+    };
+    #button {
+        border-radius: 5px;
+        margin: 10px;
+        background-color:rgba(90, 89, 110, 0.2);;
+        &:hover {    
+            background: rgba(117, 126, 161, 0.2); 
+            color: rgb(132, 141, 230);
+            cursor: pointer;
+                }
+       }
+}
